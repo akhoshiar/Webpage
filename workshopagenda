@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Microrobotics Workshop Agenda</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    .wrap { max-width: 1100px; margin: 0 auto; }
+    img { width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; }
+    h1 { margin-bottom: 12px; }
+    p { color: #444; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Microrobotics Workshop Agenda</h1>
+    <p>7th January 2026</p>
+    <img src="assets/img/microrobotics-workshop-agenda.png" alt="Microrobotics Workshop Agenda (7th January 2026)">
+  </div>
+</body>
+</html>
