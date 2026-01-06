@@ -5,18 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Microrobotics Workshop Agenda</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 24px; }
-    .wrap { max-width: 1100px; margin: 0 auto; }
-    img { width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; }
-    h1 { margin-bottom: 12px; }
-    p { color: #444; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f7f7f9; }
+    .wrap { max-width: 1100px; margin: 28px auto; padding: 0 16px; }
+    .card { background: white; border: 1px solid #e6e6ea; border-radius: 12px; padding: 18px; }
+    h1 { margin: 0 0 6px 0; font-size: 26px; }
+    .sub { margin: 0 0 16px 0; color: #555; }
+    .imgbox { margin-top: 12px; }
+    img { width: 100%; height: auto; border: 1px solid #e6e6ea; border-radius: 10px; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+    .btn {
+      display: inline-block; padding: 10px 12px; border-radius: 10px;
+      border: 1px solid #d9d9df; background: #fff; color: #111; text-decoration: none;
+    }
+    .btn:hover { background: #f2f2f6; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Microrobotics Workshop Agenda</h1>
-    <p>7th January 2026</p>
-    <img src="assets/img/microrobotics-workshop-agenda.png" alt="Microrobotics Workshop Agenda (7th January 2026)">
+    <div class="card">
+      <h1>Microrobotics Workshop</h1>
+      <p class="sub">7th January 2026</p>
+
+      <div class="actions">
+        <a class="btn" href="workshopagenda.png" target="_blank" rel="noopener">Open agenda image</a>
+        <a class="btn" href="workshopagenda.png" download>Download image</a>
+      </div>
+
+      <div class="imgbox">
+        <img src="workshopagenda.png" alt="Microrobotics Workshop Agenda (7th January 2026)">
+      </div>
+    </div>
   </div>
 </body>
 </html>
